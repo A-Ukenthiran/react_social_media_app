@@ -1,0 +1,41 @@
+.PostPage {
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #f7f7f7;
+}
+.PostPage p {
+  margin-top: 1rem;
+}
+.PostPage button {
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.deleteButton {
+  background-color: #d11a2a;
+}
+.deleteButton svg{
+  margin-right: 0.5rem;
+}
+.deleteButton:hover {
+  background-color: #831720;
+}
+.editButton {
+  background-color: gray;
+}
+.editButton svg
+{
+  margin-right: 0.5rem;
+}
+.editButton:hover
+{
+  background-color: rgb(88, 88, 88);
+}

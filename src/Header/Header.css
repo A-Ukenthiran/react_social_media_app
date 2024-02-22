@@ -1,0 +1,29 @@
+.Header
+{
+  width: 100%;
+  background-color: #3b5998;
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header h1 {
+  font-size: 2rem;
+  color: white;
+}
+.Header svg {
+  font-size: 2rem;
+  color: white;
+}
+
+@media only screen and(min-width:610px)
+{
+  .Header h1
+  {
+    font-size: 4rem;
+  }
+  .Header svg
+  {
+    font-size: 3rem;
+  }
+}

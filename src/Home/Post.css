@@ -1,0 +1,31 @@
+.post {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid lightgrey;
+}
+.post a {
+  text-decoration: none;
+}
+.post a {
+  color: black;
+}
+.post a:active {
+  color: #3b5998;
+}
+.post:first-child {
+  margin-top: 0;
+}
+.post:last-child {
+  border-bottom: none;
+}
+.postDate {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+.postDate svg
+{
+  margin-left: 0.50rem;
+}
+.postBody {
+  margin: 1rem 0;
+}
