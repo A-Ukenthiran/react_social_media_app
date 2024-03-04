@@ -19,7 +19,7 @@ function App() {
         <Nav />
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
 
           <Route path="post">
             <Route index element={<NewPost />} />
